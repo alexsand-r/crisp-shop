@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ProductPage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230405143647">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp>
+			<div class="header__container">
+				<div class="header__body">
+					<button type="button" class="icon-menu"><span></span></button>
+					<a data-da=".header__menu,991.98" href="#" class="header__logo"><img src="img/header/logo-header.svg" alt="Logo"></a>
+					<div class="header__menu menu">
+
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">home</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Shop</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">blog</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Sale</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">contact us</a></li>
+							</ul>
+
+						</nav>
+						<a data-popup="#search" data-da=".header__box,991.98,0" href="#" class="header__search search-header">
+							<div class="search-header__icon">
+								<img src="img/header/search-white.svg" alt="icon">
+							</div>
+							<div class="search-header__text">search</div>
+						</a>
+					</div>
+					<div class="header__actin">
+						<div data-da=".menu__list,991.98" class="header__login">
+							<a href="#" class="header__sign">SIGN IN</a>
+							<a href="#" class="header__sign">CREATE AN ACCOUNT</a>
+						</div>
+						<div class="header__basket">
+							<a href="#" class="header__herts">
+								<img src="img/header/heart-white.svg" alt="icon">
+							</a>
+							<div class="header__box box-header ">
+								<a href="#" class="box-header__basket"><span>2</span>
+									<img src="img/header/basket.svg" alt="icon">
+
+								</a>
+								<div class="box-header__column">
+									<div class="box-header__text">Shopping Cart</div>
+									<div class="box-header__price">0,00 EUR</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+
+
+
+		<main class="page">
+			<section class="page__product product">
+				<div class="product__container">
+					<div class="product__body">
+
+						<!-- слайдер -->
+						<div class="product__image">
+							<div class="image-prewiev">
+								<div class="image-prewiev__slider swiper">
+									<div class="image-prewiev__wrapper swiper-wrapper">
+										<div class="image-prewiev__slide swiper-slide">
+											<picture><source srcset="img/product-slider/01-prew.webp" type="image/webp"><img src="img/product-slider/01-prew.jpg" alt="picture"></picture>
+										</div>
+										<div class="image-prewiev__slide swiper-slide">
+											<picture><source srcset="img/product-slider/02-prew.webp" type="image/webp"><img src="img/product-slider/02-prew.png" alt="picture"></picture>
+										</div>
+										<div class="image-prewiev__slide swiper-slide">
+											<picture><source srcset="img/product-slider/03-prew.webp" type="image/webp"><img src="img/product-slider/03-prew.png" alt="picture"></picture>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="image-product">
+								<div class="image-product__slider swiper">
+									<div class="image-product__wrapper swiper-wrapper">
+										<div class="image-product__slide swiper-slide">
+											<div class="zoom-block">
+												<div class="zoom-block__pic">
+													<img src="img/product/zoom-pic.svg" alt="icon">
+												</div>
+
+												<div class="zoom-block__text">Zoom</div>
+											</div>
+											<div class="image-product__pic swiper-zoom-container">
+												<picture><source srcset="img/product-slider/01-big.webp" type="image/webp"><img src="img/product-slider/01-big.jpg" alt="picture"></picture>
+											</div>
+
+										</div>
+										<div class="image-product__slide swiper-slide">
+											<div class="zoom-block">
+												<div class="zoom-block__pic">
+													<img src="img/product/zoom-pic.svg" alt="icon">
+												</div>
+
+												<div class="zoom-block__text">Zoom</div>
+											</div>
+											<div class="image-product__pic swiper-zoom-container">
+												<picture><source srcset="img/product-slider/02-big.webp" type="image/webp"><img src="img/product-slider/02-big.png" alt="picture"></picture>
+											</div>
+
+										</div>
+										<div class="image-product__slide swiper-slide">
+											<div class="zoom-block">
+												<div class="zoom-block__pic">
+													<img src="img/product/zoom-pic.svg" alt="icon">
+												</div>
+
+												<div class="zoom-block__text">Zoom</div>
+											</div>
+											<div class="image-product__pic swiper-zoom-container">
+												<picture><source srcset="img/product-slider/03-big.webp" type="image/webp"><img src="img/product-slider/03-big.png" alt="picture"></picture>
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+								<!-- If we need pagination -->
+								<div class="pagination-product"></div>
+								<div data-da=".product__advantages,991.98,first" class="share-product">
+									<div class="share-product__title">share</div>
+									<div class="share-product__row">
+										<a href="#" class="share-product__social">
+											<svg width="6" height="13" viewbox="0 0 6 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="fb-icon">
+												<path d="M4 4.22501V3.08754C4 2.51879 4.07692 2.19376 4.92308 2.19376H6V0H4.23077C2.07692 0 1.38462 1.05628 1.38462 2.92503V4.30629H0V6.5H1.30769V13H4V6.5H5.76923L6 4.22501H4Z" />
+											</svg>
+										</a>
+										<a href="#" class="share-product__social">
+											<svg width="13" height="10" viewbox="0 0 13 10" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="twit-icon">
+												<path d="M13 1.15326C12.5135 1.36079 12.0041 1.49145 11.4795 1.53757C12.0117 1.23012 12.4222 0.738223 12.6199 0.15408C12.0953 0.438465 11.5328 0.64598 10.9474 0.768958C10.4076 0.269362 9.70058 -0.00733705 8.97076 0.000349035C7.54912 -0.0227092 6.37076 1.0995 6.30994 2.5368C6.29473 2.72126 6.31755 2.90569 6.38597 3.07478C4.28012 3.02098 2.2959 2.06793 0.912278 0.461542C0.661401 0.853533 0.532161 1.30702 0.532161 1.76819C0.547366 2.62903 1.00351 3.42066 1.74853 3.84339C1.33041 3.82033 0.912278 3.72044 0.532161 3.53598C0.554968 4.76575 1.45205 5.80338 2.66082 5.99553C2.44035 6.05702 2.20468 6.08775 1.97661 6.07238C1.79415 6.08006 1.6193 6.05702 1.44445 5.99553C1.80936 7.07159 2.82807 7.79407 3.95321 7.76332C2.98772 8.48582 1.80935 8.86241 0.608184 8.83935H0C1.24678 9.57721 2.66082 9.97689 4.10526 9.99226C8.1193 10.1767 11.5175 7.04081 11.7 2.98255C11.7 2.93644 11.7 2.89033 11.7076 2.84421V2.5368C12.1942 2.12943 12.6351 1.66823 13 1.15326Z" />
+											</svg>
+										</a>
+										<a href="#" class="share-product__social">
+											<svg width="11" height="13" viewbox="0 0 11 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="pinter-icon">
+												<path d="M5.91874 9.43848C5.29547 9.31706 4.7046 9.04185 4.21893 8.62903C3.89515 10.4098 3.49043 12.1096 2.19532 13C1.7906 10.3288 2.76192 8.30522 3.16664 6.11973C2.43814 4.90556 3.24758 2.39631 4.78553 2.96292C6.72819 3.69142 3.08569 7.57674 5.51402 8.06241C8.0233 8.54808 9.07557 3.69139 7.53763 2.0725C5.27119 -0.193938 0.981135 1.99156 1.4668 5.31028C1.62869 6.11973 2.43815 6.36257 1.7906 7.49579C0.333599 7.17201 -0.0711326 6.03878 0.00981179 4.50084C0.187889 2.15345 2.03342 0.275539 4.38081 0.0488948C7.13291 -0.274883 9.64219 1.02025 10.0469 3.61047C10.4516 6.52447 8.83274 9.68131 5.91874 9.43848Z" />
+											</svg>
+										</a>
+										<a href="#" class="share-product__social">
+											<svg width="12" height="12" viewbox="0 0 12 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="insta-icon">
+												<path d="M5.99999 3.56201C4.65569 3.56201 3.56201 4.65565 3.56201 5.99996C3.56201 7.34426 4.65569 8.43795 5.99999 8.43795C7.3443 8.43795 8.43796 7.34426 8.43796 5.99996C8.43796 4.65565 7.35189 3.56201 5.99999 3.56201Z" />
+												<path d="M11.9544 3.04558C11.9241 2.33165 11.8025 1.94428 11.7038 1.68605C11.5747 1.34428 11.4152 1.10126 11.157 0.843027C10.8987 0.584799 10.6557 0.425328 10.3139 0.296214C10.0557 0.19748 9.66837 0.0759476 8.95444 0.0455678C8.17976 0.00759309 7.95191 0 6.00001 0C4.04811 0 3.82026 0.00759309 3.04558 0.0455678C2.33165 0.0759476 1.94431 0.19748 1.68608 0.296214C1.34431 0.425328 1.10127 0.584799 0.843039 0.843027C0.584811 1.10126 0.425316 1.34428 0.296202 1.68605C0.197468 1.94428 0.0759592 2.33165 0.0455794 3.04558C0.00760468 3.82026 0 4.04808 0 5.99998C0 7.95188 0.00760468 8.17974 0.0455794 8.95442C0.0759592 9.66835 0.197468 10.0557 0.296202 10.3139C0.425316 10.6557 0.584811 10.8987 0.843039 11.157C1.10127 11.4152 1.34431 11.5747 1.68608 11.7038C1.94431 11.8025 2.33165 11.9241 3.04558 11.9544C3.81267 11.9924 4.04811 12 6.00001 12C7.95191 12 8.18735 11.9924 8.95444 11.9544C9.66837 11.9241 10.0557 11.8025 10.3139 11.7038C10.6557 11.5747 10.8987 11.4152 11.157 11.157C11.4152 10.8987 11.5747 10.6557 11.7038 10.3139C11.8025 10.0557 11.9241 9.66835 11.9544 8.95442C11.9924 8.17974 12 7.95188 12 5.99998C12 4.04808 11.9924 3.82026 11.9544 3.04558ZM6.00001 9.75188C3.92659 9.75188 2.24811 8.0734 2.24811 5.99998C2.24811 3.92656 3.92659 2.24807 6.00001 2.24807C8.07343 2.24807 9.75191 3.92656 9.75191 5.99998C9.75951 8.0734 8.07343 9.75188 6.00001 9.75188ZM9.90381 2.9772C9.41774 2.9772 9.0228 2.58229 9.0228 2.09621C9.0228 1.61014 9.41774 1.21517 9.90381 1.21517C10.3899 1.21517 10.7848 1.61014 10.7848 2.09621C10.7848 2.58229 10.3899 2.9772 9.90381 2.9772Z" />
+											</svg>
+
+										</a>
+
+									</div>
+
+								</div>
+
+
+							</div>
+
+						</div>
+
+						<div class="product__column">
+							<nav data-da=".product__body,991.98,first" class="product__breadcrumbs breadcrumbs-product">
+
+								<ul class="breadcrumbs-product__list">
+									<li class="breadcrumbs-product__item">
+										<a href="#" class="breadcrumbs-product__link">Home</a>
+									</li>
+									<li class="breadcrumbs-product__item">
+										<a href="#" class="breadcrumbs-product__link">Womens Dress </a>
+									</li>
+									<li class="breadcrumbs-product__item">
+										<span class="breadcrumbs-product__current">Angels malu</span>
+									</li>
+								</ul>
+
+							</nav>
+							<div class="product__header">
+								<div class="product__subtitle">
+									<img src="img/product/fendi.svg" alt="icon">
+								</div>
+								<h2 class="product__title">Women Black Checked Fit and Flare Dress
+
+								</h2>
+							</div>
+
+							<div data-da=".price-total,450,last" class="product__color color-product">
+								<div class="color-product__select">Select Color</div>
+								<div class="color-product__items">
+									<div class="color-product__item1"></div>
+									<div class="color-product__item item--activ"><span></span></div>
+									<div class="color-product__item2"></div>
+								</div>
+
+							</div>
+							<div class="product__size size-product">
+								<div class="size-product__box">
+									<div class="size-product__top">
+										<div class="size-product__title">Select size (Inches)</div>
+										<a href="#" class="size-product__guide">Size guide</a>
+									</div>
+									<!-- размеры -->
+									<div class="size-product__row">
+										<div class="checkbox-size">
+											<input id="a_1" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_1" class="checkbox-size__label"><span class="checkbox-size__text">osfa</span><span class="checkbox-size__item"></span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_2" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_2" class="checkbox-size__label"><span class="checkbox-size__text">w26</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_3" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_3" class="checkbox-size__label"><span class="checkbox-size__text">w27</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_4" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_4" class="checkbox-size__label"><span class="checkbox-size__text">w28</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_5" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_5" class="checkbox-size__label"><span class="checkbox-size__text">w29</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_6" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_6" class="checkbox-size__label"><span class="checkbox-size__text">w30</span><span class="checkbox-size__item"></span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_7" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_7" class="checkbox-size__label"><span class="checkbox-size__text">w31</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_8" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_8" class="checkbox-size__label"><span class="checkbox-size__text">w32</span><span class="checkbox-size__item"></span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_9" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_9" class="checkbox-size__label"><span class="checkbox-size__text">w33</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_10" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_10" class="checkbox-size__label"><span class="checkbox-size__text">w34</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_11" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_11" class="checkbox-size__label"><span class="checkbox-size__text">w35</span><span class="checkbox-size__item"></span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_12" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_12" class="checkbox-size__label"><span class="checkbox-size__text">w36</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_13" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_13" class="checkbox-size__label"><span class="checkbox-size__text">w37</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_14" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_14" class="checkbox-size__label"><span class="checkbox-size__text">w38</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_15" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_15" class="checkbox-size__label"><span class="checkbox-size__text">w39</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_16" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_16" class="checkbox-size__label"><span class="checkbox-size__text">w40</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_17" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_17" class="checkbox-size__label"><span class="checkbox-size__text">w42</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_18" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_18" class="checkbox-size__label"><span class="checkbox-size__text">w44</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_19" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_19" class="checkbox-size__label"><span class="checkbox-size__text">w46</span></label>
+										</div>
+										<div class="checkbox-size">
+											<input id="a_20" class="checkbox-size__input" type="checkbox" value="1" name="form[]">
+											<label for="a_20" class="checkbox-size__label"><span class="checkbox-size__text">w50</span></label>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="product__select">
+								<div class="product__quantity">
+									<div class="product__quantity-title">Quantity</div>
+									<div data-quantity class="quantity">
+										<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+										<div class="quantity__input">
+											<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+									</div>
+								</div>
+
+
+								<div class="price-total">
+									<div class="price-total__row">
+										<div class="price-total__title">price total</div>
+										<div class="price-total__price">90,00 EUR</div>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="drt">
+								<button class="add-card-item__button button--black">Add to bag</button>
+								<button class="add-card-item__button button--white">
+									<img src="img/shop/herts.svg" alt="icon">
+									save</button>
+
+							</div>
+							<div class="product__advantages advantages-product">
+								<div class="advantages-product__item">
+									<img src="img/product/check.svg" alt="icon">
+									<p class="advantages-product__text">Free shipping</p>
+								</div>
+								<div class="advantages-product__item">
+
+									<p class="advantages-product__text"><span>Product code:</span> RFKK1024</p>
+								</div>
+								<div class="advantages-product__item">
+
+									<p class="advantages-product__text"><span>TAGS:</span> NEW arrivals, Top women</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<button class="product__contact-as">
+					Contact US
+				</button>
+
+			</section>
+			<div data-spollers class="page__details details">
+				<div class="details__container">
+					<div class="details__body">
+						<div class="spollers-details">
+							<div class="spollers-details__item">
+								<button type="button" data-spoller class="spollers-details__title">Details<span></span></button>
+								<div class="spollers-details">
+									<div class="spollers-details__body body-spollers-details">
+										<div class="body-spollers-details__column">
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">ABOUT PRODUCT</div>
+												<div class="body-spollers-details__text">
+													<p>
+														Cool off this summer in the Mini Ruffle Smocked Tank Top from our very own LA Hearts. This tank features a smocked body, adjustable straps, scoop neckline, ruffled hems, and a cropped fit.
+													</p>
+												</div>
+											</div>
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">ADVANTAGES</div>
+												<div class="body-spollers-details__list">
+													<ul class="body-spollers-details__item">
+														<li>Smocked body</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Adjustable straps</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Scoop neckline</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Ruffled hems</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Cropped length</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li> Model is wearing a small</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li> 100% rayon</li>
+													</ul>
+
+													<ul class="body-spollers-details__item">
+														<li>Machine washable</li>
+													</ul>
+												</div>
+											</div>
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">ADVANTAGES</div>
+												<div class="body-spollers-details__list">
+													<ul class="body-spollers-details__item">
+														<li>Smocked body</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Adjustable straps</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Scoop neckline</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="body-spollers-details__column">
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">SHIPPING</div>
+												<div class="body-spollers-details__text">
+													<p>
+														We offer Free Standard Shipping for all orders over $75 to the 50 states and the District of Columbia. The minimum order value must be $75 before taxes, shipping and handling. Shipping fees are non-refundable.
+													</p>
+													<p>
+														Please allow up to 2 business days (excluding weekends, holidays, and sale days) to process your order.
+													</p>
+													<p>
+														Processing Time + Shipping Time = Delivery Time
+													</p>
+												</div>
+											</div>
+										</div>
+
+
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="spollers-details">
+							<div class="spollers-details__item">
+								<button type="button" data-spoller class="spollers-details__title">Other information<span></span></button>
+								<div class="spollers-details">
+									<div class="spollers-details__body body-spollers-details">
+										<div class="body-spollers-details__column">
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">ABOUT PRODUCT</div>
+												<div class="body-spollers-details__text">
+													<p>
+														Cool off this summer in the Mini Ruffle Smocked Tank Top from our very own LA Hearts. This tank features a smocked body, adjustable straps, scoop neckline, ruffled hems, and a cropped fit.
+													</p>
+												</div>
+											</div>
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">ADVANTAGES</div>
+												<div class="body-spollers-details__list">
+													<ul class="body-spollers-details__item">
+														<li>Smocked body</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Adjustable straps</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Scoop neckline</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Ruffled hems</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Cropped length</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li> Model is wearing a small</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li> 100% rayon</li>
+													</ul>
+
+													<ul class="body-spollers-details__item">
+														<li>Machine washable</li>
+													</ul>
+												</div>
+											</div>
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">ADVANTAGES</div>
+												<div class="body-spollers-details__list">
+													<ul class="body-spollers-details__item">
+														<li>Smocked body</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Adjustable straps</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Scoop neckline</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="spollers-details">
+							<div class="spollers-details__item">
+								<button type="button" data-spoller class="spollers-details__title">Another tab<span></span></button>
+								<div class="spollers-details">
+									<div class="spollers-details__body body-spollers-details">
+										<div class="body-spollers-details__column">
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">ABOUT PRODUCT</div>
+												<div class="body-spollers-details__text">
+													<p>
+														Cool off this summer in the Mini Ruffle Smocked Tank Top from our very own LA Hearts. This tank features a smocked body, adjustable straps, scoop neckline, ruffled hems, and a cropped fit.
+													</p>
+												</div>
+											</div>
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">ADVANTAGES</div>
+												<div class="body-spollers-details__list">
+													<ul class="body-spollers-details__item">
+														<li>Smocked body</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Adjustable straps</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Scoop neckline</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Ruffled hems</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Cropped length</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li> Model is wearing a small</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li> 100% rayon</li>
+													</ul>
+
+													<ul class="body-spollers-details__item">
+														<li>Machine washable</li>
+													</ul>
+												</div>
+											</div>
+											<div class="body-spollers-details__content">
+												<div class="body-spollers-details__title">ADVANTAGES</div>
+												<div class="body-spollers-details__list">
+													<ul class="body-spollers-details__item">
+														<li>Smocked body</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Adjustable straps</li>
+													</ul>
+													<ul class="body-spollers-details__item">
+														<li>Scoop neckline</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="page__featured featured">
+				<div class="featured__container">
+					<div class="featured__body">
+						<div class="featured-product">
+							<div class="featured-product__control">
+								<h2 class="featured-product__title">You May Also Like</h2>
+								<div class="featured-product__arrow arrow-featured-product">
+									<button class="arrow-featured-product__prew _icon-arrow-left"></button>
+									<button class="arrow-featured-product__next _icon-arrow-right"></button>
+								</div>
+							</div>
+							<div class="featured-item">
+								<div class="featured-item__slider swiper">
+									<div class="featured-item__wrapper swiper-wrapper">
+										<div class="featured-item__slide swiper-slide">
+											<div class="card-item">
+												<a href="#" class="card-item__picture">
+													<div class="card-item__pic">
+														<picture><source srcset="img/most/02.webp" type="image/webp"><img src="img/most/02.jpg" alt="picture"></picture>
+													</div>
+												</a>
+												<div class="card-item__column column-card-item">
+													<p class="column-card-item__subtitle">TOP women</p>
+													<a href="#" class="column-card-item__characteristics">Angels malu zip jeans slim black used</a>
+
+												</div>
+												<div class="card-item__price-box">
+													<p class="card-item__price">139,00 EUR</p>
+													<p class="card-item__old"></p>
+												</div>
+
+											</div>
+										</div>
+										<div class="featured-item__slide swiper-slide">
+											<div class="card-item">
+												<a href="#" class="card-item__picture">
+													<div class="card-item__pic">
+														<picture><source srcset="img/most/03.webp" type="image/webp"><img src="img/most/03.jpg" alt="picture"></picture>
+													</div>
+												</a>
+												<div class="card-item__column column-card-item">
+													<p class="column-card-item__subtitle">TOP women</p>
+													<a href="#" class="column-card-item__characteristics">Angels malu zip jeans slim black used</a>
+
+												</div>
+												<div class="card-item__price-box">
+													<p class="card-item__price">139,00 EUR</p>
+													<p class="card-item__old"></p>
+												</div>
+											</div>
+										</div>
+										<div class="featured-item__slide swiper-slide">
+											<div class="card-item">
+												<a href="#" class="card-item__picture">
+													<div class="card-item__pic">
+														<picture><source srcset="img/most/04.webp" type="image/webp"><img src="img/most/04.jpg" alt="picture"></picture>
+													</div>
+												</a>
+												<div class="card-item__column column-card-item">
+													<p class="column-card-item__subtitle">TOP women</p>
+													<a href="#" class="column-card-item__characteristics">Angels malu zip jeans slim black used</a>
+
+												</div>
+												<div class="card-item__price-box">
+													<p class="card-item__price">139,00 EUR</p>
+													<p class="card-item__old"></p>
+												</div>
+											</div>
+										</div>
+										<div class="featured-item__slide swiper-slide">
+											<div class="card-item">
+												<a href="#" class="card-item__picture">
+													<div class="card-item__pic">
+														<picture><source srcset="img/most/01.webp" type="image/webp"><img src="img/most/01.jpg" alt="picture"></picture>
+													</div>
+												</a>
+												<div class="card-item__column column-card-item">
+													<p class="column-card-item__subtitle">TOP women</p>
+													<a href="#" class="column-card-item__characteristics">Angels malu zip jeans slim black used</a>
+
+												</div>
+												<div class="card-item__price-box">
+													<p class="card-item__price">139,00 EUR</p>
+													<p class="card-item__old"></p>
+												</div>
+											</div>
+										</div>
+										<div class="featured-item__slide swiper-slide">
+											<div class="card-item">
+												<a href="#" class="card-item__picture">
+													<div class="card-item__pic">
+														<picture><source srcset="img/most/05.webp" type="image/webp"><img src="img/most/05.jpg" alt="picture"></picture>
+													</div>
+												</a>
+												<div class="card-item__column column-card-item">
+													<p class="column-card-item__subtitle">TOP women</p>
+													<a href="#" class="column-card-item__characteristics">Angels malu zip jeans slim black used</a>
+
+												</div>
+												<div class="card-item__price-box">
+													<p class="card-item__price">139,00 EUR</p>
+													<p class="card-item__old"></p>
+												</div>
+											</div>
+										</div>
+										<div class="featured-item__slide swiper-slide">
+											<div class="card-item">
+												<a href="#" class="card-item__picture">
+													<div class="card-item__pic">
+														<picture><source srcset="img/most/01.webp" type="image/webp"><img src="img/most/01.jpg" alt="picture"></picture>
+													</div>
+													<div class="card-item__discord">-30%</div>
+												</a>
+												<div class="card-item__column column-card-item">
+													<p class="column-card-item__subtitle">TOP women</p>
+													<a href="#" class="column-card-item__characteristics">Angels malu zip jeans slim black used
+
+													</a>
+
+												</div>
+												<div class="card-item__price-box">
+													<p class="card-item__price"><span>234,00 EUR</span></p>
+													<p class="card-item__old">119,00 EUR</p>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__obligations obligations">
+				<div class="obligations__container">
+					<div class="obligations__body">
+						<div class="obligations__row">
+							<div class="obligations__column">
+								<div class="obligations__item">
+									<div class="obligations__icon">
+										<img src="img/obligations/chek.svg" alt="icon">
+									</div>
+									<div class="obligations__text">Duties and Taxes Guaranteed</div>
+								</div>
+							</div>
+							<div class="obligations__column">
+								<div class="obligations__item">
+									<div class="obligations__icon">
+										<img src="img/obligations/chek.svg" alt="icon">
+									</div>
+									<div class="obligations__text">Free Express Shipping</div>
+								</div>
+							</div>
+							<div class="obligations__column">
+								<div class="obligations__item">
+									<div class="obligations__icon">
+										<img src="img/obligations/chek.svg" alt="icon">
+									</div>
+									<div class="obligations__text">Customer Love</div>
+								</div>
+							</div>
+							<div class="obligations__column">
+								<div class="obligations__item">
+									<div class="obligations__icon">
+										<img src="img/obligations/chek.svg" alt="icon">
+									</div>
+									<div class="obligations__text">Easy Returns</div>
+								</div>
+							</div>
+							<div class="obligations__column">
+								<div class="obligations__item">
+									<div class="obligations__icon">
+										<img src="img/obligations/chek.svg" alt="icon">
+									</div>
+									<div class="obligations__text">Secure Payment</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		<footer data-spollers="450,max" class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__row">
+						<div class="footer__column">
+							<a href="#" class="footer__logo"><img src="img/header/logo-header.svg" alt="Logo"></a>
+
+						</div>
+						<div class="spollers">
+							<div class="spollers__box">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">features <span></span>
+
+									</button>
+									<nav class="footer__menu menu-footer">
+										<ul class="menu-footer__list">
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">men</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">Women</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">boys</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">girls</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">new arrivals</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">shoes</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">cothes</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">accessories</a></li>
+
+										</ul>
+									</nav>
+
+								</div>
+							</div>
+
+						</div>
+						<div class="spollers">
+							<div class="spollers__box">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">Menu <span></span> </button>
+									<nav class="footer__menu menu-footer">
+										<ul class="menu-footer__list">
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">About us</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">contact us</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">my account</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">orders history</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">MY WISHLIST</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">BLOG</a></li>
+											<li class="menu-footer__item"><a href="#" class="menu-footer__link">LOGIN</a></li>
+
+										</ul>
+									</nav>
+
+								</div>
+							</div>
+
+						</div>
+						<div class="spollers">
+							<div class="spollers__box">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">contact us <span></span></button>
+									<div class="spollers__body">
+										<div class="spollers__contact contact-spollers">
+											<div class="contact-spollers__title">Address:</div>
+											<p class="contact-spollers__text">123 STREET NAME, CITY, ENGLAND</p>
+										</div>
+										<div class="spollers__contact contact-spollers">
+											<div class="contact-spollers__title">Phone:</div>
+											<a href="tel:1234567890" class="contact-spollers__text">(123) 456-7890</a>
+										</div>
+										<div class="spollers__contact contact-spollers">
+											<div class="contact-spollers__title">email:</div>
+											<a href="mailto:MAIL@EXAMPLE.COM" class="contact-spollers__text">MAIL@EXAMPLE.COM</a>
+										</div>
+										<div class="spollers__contact contact-spollers">
+											<div class="contact-spollers__title">working days/hours</div>
+											<p class="contact-spollers__text">MON - SUN / 9:00AM - 8:00PM</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="spollers">
+							<div class="spollers__box">
+								<div class="spollers__item">
+									<button type="button" data-spoller class="spollers__title">follow us <span></span></button>
+									<div class="spollers__body">
+										<div class="spollers__social social-spollers">
+
+											<a href="#" class="social-spollers__icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewbox="0 0 21 21" fill="currentColor" class="icon-white">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V21H21V0H0ZM13.8925 5.77925H12.2511C11.926 5.77925 11.5979 6.11525 11.5979 6.36522V8.03894H13.8893C13.797 9.32234 13.6076 10.4959 13.6076 10.4959H11.5861V17.7692H8.57386V10.4952H7.10751V8.04766H8.57386V6.04662C8.57386 5.68071 8.49974 3.23082 11.6603 3.23082H13.8925V5.77925H13.8925Z" />
+												</svg>
+											</a>
+											<a href="#" class="social-spollers__link">FACEBOOK</a>
+										</div>
+										<div class="spollers__social social-spollers">
+											<a href="#" class="social-spollers__icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewbox="0 0 21 21" fill="currentColor" class="icon-white">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V21H21V0H0ZM16.2808 7.53503C16.2865 7.66302 16.2894 7.79169 16.2894 7.92088C16.2894 11.8626 13.2893 16.4075 7.80295 16.4075C6.11852 16.4075 4.55068 15.9138 3.23072 15.0673C3.46408 15.095 3.70145 15.1092 3.94228 15.1092C5.33972 15.1092 6.6258 14.6323 7.64668 13.8322C6.34145 13.8082 5.23985 12.9458 4.86023 11.7608C5.04245 11.7957 5.22932 11.8145 5.42151 11.8145C5.69354 11.8145 5.95708 11.7778 6.20737 11.7098C4.84292 11.4357 3.81471 10.2302 3.81471 8.78511C3.81471 8.77251 3.81471 8.76 3.81498 8.74754C4.21708 8.97092 4.67695 9.10514 5.16595 9.12065C4.36555 8.58577 3.83912 7.67275 3.83912 6.63803C3.83912 6.09134 3.98622 5.57903 4.24302 5.1384C5.71408 6.94306 7.91192 8.13046 10.3908 8.25498C10.3399 8.03658 10.3134 7.80891 10.3134 7.57518C10.3134 5.92805 11.649 4.59258 13.2962 4.59258C14.1541 4.59258 14.9293 4.95475 15.4734 5.5344C16.1527 5.40078 16.7911 5.15243 17.3675 4.81066C17.1448 5.50722 16.6719 6.09162 16.056 6.46085C16.6594 6.38871 17.2342 6.22832 17.7691 5.99109C17.3694 6.5892 16.8637 7.11457 16.2808 7.53503Z" />
+												</svg>
+											</a>
+											<a href="#" class="social-spollers__link">TWITTER</a>
+										</div>
+										<div class="spollers__social social-spollers">
+											<a href="#" class="social-spollers__icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewbox="0 0 21 21" fill="currentColor" class="icon-white">
+													<path d="M3.82933 21H17.1723H18.3073H21.0006V18.3063V17.6161V3.38399V2.69324V0H18.3073H17.1723H3.82933H2.69434H0.000823975V2.69324V3.38422V17.616V18.3063V21H2.69407H3.82933V21ZM14.3563 3.28109C14.3563 3.02582 14.4472 2.80538 14.6298 2.61775C14.8119 2.43136 15.035 2.3379 15.2997 2.3379H17.6786C17.9428 2.3379 18.1661 2.43132 18.3485 2.61775C18.5307 2.80511 18.622 3.02582 18.622 3.28109V5.53693C18.622 5.80117 18.5307 6.02493 18.3485 6.20664C18.1661 6.38928 17.9428 6.48012 17.6786 6.48012H15.2995C15.035 6.48012 14.8117 6.38928 14.6296 6.20664C14.4471 6.02497 14.3561 5.80117 14.3561 5.53693V3.28109H14.3563ZM13.5016 8.37238C14.3263 9.16981 14.7388 10.1336 14.7388 11.2636C14.7388 12.3942 14.3263 13.3581 13.5016 14.1551C12.6765 14.953 11.6808 15.3514 10.5143 15.3514C9.35659 15.3514 8.36562 14.953 7.54075 14.1551C6.71561 13.3584 6.30352 12.3944 6.30352 11.2636C6.30352 10.1336 6.71584 9.16957 7.54075 8.37238C8.36562 7.57491 9.35682 7.17608 10.5143 7.17608C11.681 7.17608 12.6765 7.57518 13.5016 8.37238ZM5.64637 3.28109C5.64637 3.02582 5.7372 2.80538 5.91984 2.61775C6.10198 2.43136 6.32532 2.3379 6.58979 2.3379H7.09059C7.35483 2.3379 7.57813 2.43132 7.76054 2.61775C7.94291 2.80511 8.03401 3.02582 8.03401 3.28109V5.53693C8.03401 5.80117 7.94294 6.02493 7.76054 6.20664C7.57813 6.38928 7.35483 6.48012 7.09059 6.48012H6.58979C6.32532 6.48012 6.10198 6.38928 5.91984 6.20664C5.73747 6.02497 5.64637 5.80117 5.64637 5.53693V3.28109ZM2.33876 3.28109C2.33876 3.02582 2.42983 2.80538 2.61224 2.61775C2.79437 2.43136 3.01748 2.3379 3.28218 2.3379H3.78298C4.04722 2.3379 4.27052 2.43132 4.45293 2.61775C4.6353 2.80511 4.72641 3.02582 4.72641 3.28109V5.53693C4.72641 5.80117 4.63534 6.02493 4.45293 6.20664C4.27052 6.38928 4.04722 6.48012 3.78298 6.48012H3.28218C3.01772 6.48012 2.79437 6.38928 2.61224 6.20664C2.42987 6.02497 2.33876 5.80117 2.33876 5.53693V3.28109ZM2.33876 18.2826V9.42318H4.2665C4.0841 9.99731 3.99303 10.5949 3.99303 11.2144C3.99303 12.964 4.63082 14.4572 5.90705 15.6918C7.18305 16.9267 8.7188 17.5438 10.5145 17.5438C11.6992 17.5438 12.7929 17.2619 13.7957 16.6962C14.7982 16.1318 15.5912 15.3632 16.1745 14.3928C16.7577 13.422 17.0494 12.3625 17.0494 11.2142C17.0494 10.5946 16.9583 9.99708 16.7759 9.42295H18.6215V18.2827C18.6215 18.5197 18.5395 18.718 18.3755 18.8771C18.2116 19.0373 18.0155 19.1163 17.7877 19.1163H3.17264C2.93561 19.1163 2.73736 19.0373 2.57791 18.8771C2.41847 18.7179 2.33876 18.5197 2.33876 18.2826Z" />
+												</svg>
+											</a>
+											<a href="#" class="social-spollers__link">INSTAGRAM</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+
+						<div class="footer__column">
+							<div class="footer__label">join us</div>
+							<p class="footer__text-text">Subscribe to our newsletters</p>
+							<div class="footer__subscribe subscribe">
+								<form action="#" method="get" class="subscribe__form">
+									<input autocomplete="off" type="email" required name="form[]" placeholder="Email Address" class="subscribe__input">
+									<button type="submit" class="subscribe__button">Subscribe!</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-subtitle">© 2019. Crisp theme Developed by Belvg</div>
+			</div>
+		</footer>
+
+
+
+
+
+
+
+
+
+
+	</div>
+	<div id="search" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img src="img/header/cross.svg" alt="icon">
+				</button>
+				<div class="popup__text">
+					<form action="#" method="get" class="seach-form">
+
+						<div class="seach-form__body">
+
+							<input data-required autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Seach ...." class="seach-form__input input">
+
+							<button type="submit" class="button">
+								<img src="img/header/search-white.svg" alt="icon">
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230405143647"></script>
+</body>
+
+</html>
