@@ -13,3 +13,17 @@ CSS – Styling the layout and ensuring responsiveness.
 JavaScript – Adding interactivity, such as product filtering and dynamic content loading.
 🚀 Responsive Design
 The layout is fully responsive, ensuring a smooth and optimal experience across all devices, from mobile phones to desktop versions.
+
+📥 Installation
+To get started with this project locally, follow these steps:
+
+Clone the Repository
+
+bash
+Копировать
+Редактировать
+git clone https://github.com/yourusername/womens-clothing-store-layout.git
+💡 Feel free to explore the project and contribute! 🚀
+
+🔗 Live Demo: Your GitHub Pages Link
+📫 Contact Me: 1inboxna@gmail.com
