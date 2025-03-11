@@ -1,6 +1,6 @@
 # 🛍️ Women's Clothing Store Layout
 
-[alexsand-r.github.io/crisp-shop/](https://alexsand-r.github.io/crisp-shop/)  
+🔗 Live Demo:  [alexsand-r.github.io/crisp-shop/](https://alexsand-r.github.io/crisp-shop/)
 This project showcases the multi-page layout of an online women's clothing store, designed with a modern and responsive approach. The layout includes the following pages:
 
 ## 📌 Features
@@ -30,4 +30,8 @@ To get started with this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/womens-clothing-store-layout.git
+
+   🔗 Live Demo:  [alexsand-r.github.io/crisp-shop/](https://alexsand-r.github.io/crisp-shop/)
+📫 Contact Me:
+1inboxna@gmail.com
 
