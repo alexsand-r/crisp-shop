@@ -31,10 +31,7 @@ The layout is fully responsive, ensuring a smooth and optimal experience across 
 
 To get started with this project locally, follow these steps:  
 
-1. **Clone the Repository**  
 
-   ```bash
-   git clone https://github.com/yourusername/womens-clothing-store-layout.git
 
 📫 Contact Me:
 1inboxna@gmail.com
