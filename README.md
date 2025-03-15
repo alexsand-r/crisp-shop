@@ -1,4 +1,8 @@
 # 🛍️ Women's Clothing Store Layout
+<p align="center">
+  <img src="img/Screenshot_9.png" alt="Image 1" width="1000" height="500">
+
+</p>
 
 🔗 **Live Demo**: [alexsand-r.github.io/crisp-shop/](https://alexsand-r.github.io/crisp-shop/)  
 
