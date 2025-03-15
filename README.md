@@ -27,9 +27,7 @@ This project showcases the multi-page layout of an online women's clothing store
 
 The layout is fully responsive, ensuring a smooth and optimal experience across all devices, from mobile phones to desktop versions.
 
-## 📥 **Installation**
 
-To get started with this project locally, follow these steps:  
 
 
 
