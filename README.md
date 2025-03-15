@@ -1,6 +1,6 @@
 # 🛍️ Women's Clothing Store Layout
 <p align="center">
-  <img src="img/Screenshot_9.png" alt="Image 1" width="1000" height="500">
+  <img src="img/Screenshot_9.png" alt="Image 1" width="1000" height="400">
 
 </p>
 
